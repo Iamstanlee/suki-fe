@@ -1,0 +1,54 @@
+{
+  "name": "suki-ai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "next lint",
+    "start": "next start -p $PORT"
+  },
+  "dependencies": {
+    "@chakra-ui/color-mode": "^2.2.0",
+    "@headlessui/react": "^1.7.18",
+    "@headlessui/tailwindcss": "^0.2.0",
+    "@n8tb1t/use-scroll-position": "^2.0.3",
+    "@radix-ui/react-accordion": "1.1.2",
+    "@radix-ui/react-alert-dialog": "^1.0.5",
+    "@react-pdf/renderer": "^3.4.4",
+    "@reduxjs/toolkit": "^2.2.1",
+    "@supabase/auth-helpers-nextjs": "^0.9.0",
+    "@supabase/ssr": "^0.1.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/uuid": "^9.0.8",
+    "airtable": "^0.12.2",
+    "classnames": "^2.5.1",
+    "next": "^14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-fast-marquee": "^1.6.4",
+    "react-hook-form": "^7.51.1",
+    "react-responsive": "^9.0.2",
+    "react-textarea-autosize": "^8.5.3",
+    "react-tooltip": "^5.26.3",
+    "swiper": "^11.0.7",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss": "^3.3.0",
+    "yup": "^1.4.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "prettier": "3.2.5",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": "18.17.0"
+  }
+}

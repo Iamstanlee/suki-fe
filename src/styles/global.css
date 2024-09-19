@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-white text-[15px] leading-[22px] bg-secondary-1;
+  font-family: var(--font-work-sans);
+  overflow-x: hidden;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center h-[51px] md:h-[37px] px-[23px] rounded-[33px] bg-primary-1 text-white uppercase text-base md:text-sm font-[700];
+}
+
+.btn-primary-dark {
+  @apply inline-flex items-center border-white border-[1px] justify-center h-[53px] md:h-[37px] w-[169px] md:w-[126px] rounded-[36px] bg-primary-3 text-white text-base md:text-[13px] md:leading-[16.93px] font-[700];
+}
+
+.btn-border {
+  @apply border border-white bg-transparent;
+}
+
+h1.title {
+  @apply text-xl7 md:text-h4 leading-[87px];
+  letter-spacing: -5px;
+}
+
+.description {
+  @apply text-lg md:text-sm;
+}
+
+.marquee {
+  @apply text-[40px] leading-[31px] font-[900] uppercase text-white;
+  font-family: var(--font-inter);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title {
+  font-family: var(--font-dm-serif-display);
+}
+
+p,
+span,
+.workSans {
+  font-family: var(--font-work-sans);
+}
+
+#vendor-article .swiper-slide > .relative {
+  height: 100%;
+}
+
+#customer-swiper {
+  max-width: 97vw;
+}
+
+#customer-swiper .swiper-wrapper {
+  display: flex;
+  align-items: center;
+  /* max-width: 100vw; */
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.faq-trigger[data-state='open'] > .open {
+  visibility: visible;
+}
+
+.faq-trigger[data-state='open'] > .closed {
+  visibility: hidden;
+}
+
+.faq-trigger[data-state='closed'] > .open {
+  visibility: hidden;
+}
+
+.faq-trigger[data-state='closed'] > .closed {
+  visibility: visible;
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    max-width: 600px !important;
+  }
+
+  #member-experience.container,
+  #member-join-waitlist.container, .marquee-container.container {
+    max-width: 100% !important;
+  }
+
+  #vendor-article .swiper-slide {
+    width: 600px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px !important;
+  }
+
+  #member-experience.container,
+  #member-join-waitlist.container, .marquee-container.container {
+    max-width: 100% !important;
+  }
+
+  #squad-swiper {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    max-width: 960px !important;
+  }
+
+  #member-experience.container,
+  #member-join-waitlist.container, .marquee-container.container {
+    max-width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1240px !important;
+  }
+
+  #member-experience.container,
+  #member-join-waitlist.container, .marquee-container.container {
+    max-width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .container,
+  #member-experience.container,
+  #member-join-waitlist.container, .marquee-container.container {
+    max-width: 1179px !important;
+  }
+}
